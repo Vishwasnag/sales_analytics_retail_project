@@ -1,0 +1,42 @@
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment Files
+.env
+venv/
+env/
+
+# Databricks Export Files
+*.dbc
+
+# Data Files
+*.csv
+*.parquet
+*.json
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Spark Temporary Files
+spark-warehouse/
+
+# Power BI Temporary Files
+*.pbix.autorecovery
+
+# Build Files
+dist/
+build/
